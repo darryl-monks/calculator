@@ -1,3 +1,5 @@
+export type ThemeTypes = 'light' | 'dark';
+
 export type CalculatorActions =
   | 'number'
   | 'positiveOrNegative'

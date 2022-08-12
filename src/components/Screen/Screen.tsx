@@ -5,8 +5,10 @@ interface Props {
 }
 
 const ScreenInput = styled.input`
+  background-color: var(--secondary-bg-color);
   border-radius: 0.25rem;
   border: none;
+  color: var(--screen-text-color);
   font-size: 3rem;
   margin-bottom: 1rem;
   outline: none;

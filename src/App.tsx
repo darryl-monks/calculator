@@ -1,11 +1,15 @@
+import Theme from './components/Theme/Theme';
 import Container from './components/Container/Container';
 import Calculator from './components/Calculator/Calculator';
 
 function App() {
   return (
-    <Container>
-      <Calculator />
-    </Container>
+    <>
+      <Theme />
+      <Container>
+        <Calculator />
+      </Container>
+    </>
   );
 }
 
