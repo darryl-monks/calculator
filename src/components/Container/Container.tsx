@@ -6,9 +6,9 @@ interface Props {
 
 const Outer = styled.div`
   display: table;
-  height: calc(100% - 112px);
+  height: calc(100% - 132px);
   margin: 0 auto;
-  padding: 1rem;
+  padding: 0 1rem 1rem;
   max-width: 400px;
   width: 100%;
 `;
