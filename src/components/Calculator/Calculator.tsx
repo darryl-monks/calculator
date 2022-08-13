@@ -6,7 +6,6 @@ import Screen from '../Screen/Screen';
 const Container = styled.div`
   background-color: var(--secondary-bg-color);
   border-radius: 1rem;
-  margin: 2.5rem 0;
   padding: 1rem;
   box-shadow: 0 24px 40px rgba(0, 0, 0, 0.2);
 `;

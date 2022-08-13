@@ -6,9 +6,15 @@ const DEFAULT_THEME = 'light';
 
 const ThemeContainer = styled.div`
   display: flex;
-  position: absolute;
-  right: 1rem;
-  top: 1rem;
+`;
+
+const ThemeText = styled.label`
+  color: var(--theme-toggle-color);
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 0.5rem;
+  cursor: pointer;
 `;
 
 const ThemeToggle = styled.label`
@@ -45,14 +51,6 @@ const ThemeSlider = styled.span`
     left: 2px;
     position: absolute;
   }
-`;
-
-const ThemeText = styled.label`
-  color: var(--theme-toggle-color);
-  font-size: 0.6rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin-right: 0.5rem;
 `;
 
 const Theme = () => {

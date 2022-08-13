@@ -1,11 +1,11 @@
-import Theme from './components/Theme/Theme';
+import Header from './components/Header/Header';
 import Container from './components/Container/Container';
 import Calculator from './components/Calculator/Calculator';
 
 function App() {
   return (
     <>
-      <Theme />
+      <Header />
       <Container>
         <Calculator />
       </Container>
