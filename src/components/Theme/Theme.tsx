@@ -2,7 +2,7 @@ import { ThemeTypes } from '../../types/types';
 import { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
-const DEFAULT_THEME = 'dark';
+const DEFAULT_THEME = 'light';
 
 const ThemeContainer = styled.div`
   display: flex;

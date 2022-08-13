@@ -29,7 +29,7 @@ const StyledButton = styled.button<StyledButtonProps>`
   color: ${(props) => handleTextColor(props.theme)};
   cursor: pointer;
   font-family: inherit;
-  font-size: inherit;
+  font-size: 1rem;
   grid-column: span ${(props) => props.columnSpan};
   line-height: inherit;
   padding: 1rem 0;
@@ -37,6 +37,10 @@ const StyledButton = styled.button<StyledButtonProps>`
 
   &:hover {
     filter: brightness(90%);
+  }
+
+  @media (min-width: 375px) {
+    font-size: 1.25rem;
   }
 `;
 

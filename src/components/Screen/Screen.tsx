@@ -9,6 +9,7 @@ const ScreenInput = styled.input`
   border-radius: 0.25rem;
   border: none;
   color: var(--screen-text-color);
+  font-family: inherit;
   font-size: 3rem;
   margin-bottom: 1rem;
   outline: none;

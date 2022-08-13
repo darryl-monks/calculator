@@ -1,33 +1,37 @@
 :root {
+  --text-color: #111;
+
   --default-bg-color: #eee;
   --secondary-bg-color: #ffffff;
 
   --screen-text-colour: inherit;
 
   --default-button-bg-color: #ddd;
-  --secondary-button-bg-color: #444;
+  --secondary-button-bg-color: #111;
   --tertiary-button-bg-color: #ff9500;
 
   --default-button-text-color: inherit;
   --secondary-button-text-color: #ffffff;
   --tertiary-button-text-color: inherit;
 
-  --theme-toggle-color: #444;
+  --theme-toggle-color: #111;
 }
 
 [data-theme='dark'] {
-  --default-bg-color: #555;
-  --secondary-bg-color: #000;
+  --text-color: #fff;
+
+  --default-bg-color: #333;
+  --secondary-bg-color: #111;
 
   --screen-text-color: #fff;
 
-  --default-button-bg-color: #444;
-  --secondary-button-bg-color: #eee;
+  --default-button-bg-color: #333;
+  --secondary-button-bg-color: #fff;
   --tertiary-button-bg-color: #ff9500;
 
   --default-button-text-color: #fff;
-  --secondary-button-text-color: #000;
+  --secondary-button-text-color: #111;
   --tertiary-button-text-color: #fff;
 
-  --theme-toggle-color: #eee;
+  --theme-toggle-color: #fff;
 }
